@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishu's Portfolio</title>
+    <!-- Link to CSS stylesheet (for styling) and other meta tags could go here -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <!-- Navigation links to jump to various sections on the page -->
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <!-- Section contains a profile picture, intro text, and a tagline -->
+        <img src="profile.jpg" alt="Vaishu's Profile Picture">
+        <h1>Hi, I'm Vaishu!</h1>
+        <p>Turning Ideas into Interactive Web Experiences</p>
+        <!-- Links to resume and LinkedIn/GitHub profiles -->
+        <a href="resume.pdf" download>Download Resume</a>
+        <a href="https://www.linkedin.com/in/vaishnavi-vuppala-54a801304" target="_blank">LinkedIn</a>
+        <a href="https://github.com/22FE1A6146" target="_blank">GitHub</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I'm a B-TECH student in Artificial Intelligence and Machine Learning at Vignan's Lara Institute Of Technology And Science, graduating in March 2026. I currently work as an intern in Java Development at Prodigy Infotech and OctaNet.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div>
+            <!-- Display skills grouped by categories -->
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript</p>
+            
+            <h3>Backend</h3>
+            <p>Java, SQL</p>
+            
+            <h3>Tools</h3>
+            <p>Git, GitHub</p>
+            
+            <h3>Languages</h3>
+            <p>Telugu, English, Hindi</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Each project is shown with a title, description, and link to GitHub/demo -->
+        <div>
+            <h3>Project 1</h3>
+            <p>Short description of the project.</p>
+            <a href="https://github.com/22FE1A6146/project1" target="_blank">View on GitHub</a>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>Short description of the project.</p>
+            <a href="https://github.com/22FE1A6146/project2" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <!-- Timeline layout could be added with CSS for better visual representation -->
+        <div>
+            <h3>Intern at Prodigy Infotech</h3>
+            <p>Currently interning in Java Development, working on various projects and gaining hands-on experience.</p>
+        </div>
+        <div>
+            <h3>Intern at OctaNet</h3>
+            <p>Gained experience in Java Development, focusing on backend projects and enhancing coding skills.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <p>B-TECH in Artificial Intelligence and Machine Learning</p>
+        <p>Vignan's Lara Institute Of Technology And Science, Graduation: March 2026</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <!-- Simple form to send a message -->
+        <form action="mailto:vaishnavivuppala8@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <!-- Basic footer information and links -->
+        <p>&copy; 2024 Vaishu. All rights reserved.</p>
+        <a href="#home">Back to Top</a>
+    </footer>
+    <script src="portfolio.js" defer></script>
+
+</body>
+</html>

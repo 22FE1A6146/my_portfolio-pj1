@@ -1,0 +1,135 @@
+/* Stylesheet for Vaishu's Portfolio */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean and professional font */
+    line-height: 1.6; /* Improves text readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light gray background for better aesthetics */
+    color: #333; /* Dark gray text for contrast */
+}
+
+h1, h2, h3 {
+    color: #222; /* Slightly darker headings for emphasis */
+    text-align: center; /* Centers all headings */
+    margin-bottom: 0.5em; /* Adds space below headings */
+}
+
+a {
+    color: #0073e6; /* Blue links for a professional look */
+    text-decoration: none; /* Removes underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover for better UX */
+}
+
+/* Navigation Section */
+header {
+    background: #0073e6; /* Blue background for header */
+    color: white; /* White text for contrast */
+    padding: 10px 20px;
+    position: sticky; /* Keeps the navigation bar visible on scroll */
+    top: 0;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+header nav a {
+    margin: 0 15px; /* Adds space between navigation links */
+    color: white; /* Keeps links white */
+    font-weight: bold; /* Makes links stand out */
+}
+
+header nav a:hover {
+    text-decoration: underline; /* Adds hover effect */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px; /* Adds space around each section */
+    margin: 0 auto; /* Centers the content */
+    max-width: 800px; /* Restricts width for better readability */
+    background: white; /* White background for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounds the corners of sections */
+}
+
+#home {
+    text-align: center; /* Centers all content in the home section */
+}
+
+#home img {
+    border-radius: 50%; /* Makes the profile picture circular */
+    width: 150px; /* Sets fixed width */
+    height: 150px; /* Ensures it's a perfect circle */
+    object-fit: cover; /* Ensures image doesn't stretch */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+/* Skills Section */
+#skills div {
+    display: flex; /* Aligns form elements in a vertical layout */
+    flex-direction: column; 
+    /* Vertically centers the content */
+    text-align: center; /* Centers the text inside the section */
+    gap: 5px;
+}
+
+#skills h3 {
+    margin-top: 5px; /* Adds space above each skill category */
+}
+
+/* Projects Section */
+#projects div {
+    margin-bottom: 20px; /* Adds space between projects */
+    border-bottom: 1px solid #ddd; /* Adds a divider between projects */
+    padding-bottom: 10px;
+}
+
+#projects h3 {
+    margin-bottom: 5px; /* Adds space below project title */
+}
+
+/* Contact Section */
+form {
+    display: flex; /* Aligns form elements in a vertical layout */
+    flex-direction: column; /* Ensures input fields stack */
+    gap: 10px; /* Adds space between fields */
+}
+
+form input, form textarea {
+    padding: 10px; /* Adds space inside input fields */
+    border: 1px solid #ccc; /* Light gray border for fields */
+    border-radius: 4px; /* Rounds corners for smoother UI */
+}
+
+form button {
+    padding: 10px 15px; /* Adds padding to the button */
+    background: #0073e6; /* Blue button for emphasis */
+    color: white; /* White text for contrast */
+    border: none; /* Removes border */
+    border-radius: 4px; /* Rounds button corners */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+form button:hover {
+    background: #005bb5; /* Darker blue on hover */
+}
+
+/* Footer Section */
+footer {
+    text-align: center; /* Centers footer content */
+    padding: 20px;
+    background: #333; /* Dark background for footer */
+    color: white; /* White text for contrast */
+}
+
+footer a {
+    color: #0073e6; /* Blue link in footer */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Hover effect */
+}
